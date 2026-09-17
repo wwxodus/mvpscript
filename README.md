@@ -1,8 +1,8 @@
-# МVPScript — анализатор переговоров
+# МVPScript - анализатор переговоров
 
 AI-анализатор стенограмм продажных звонков для B2B-интегратора Saby. Принимает стенограмму и возвращает структурированный JSON (договорённости, сроки, встречи, риски), подкреплённый цитатами.
 
-**Stack:** SvelteKit · Bun · Zod · OpenRouter SDK (`nvidia/nemotron-3-ultra-550b-a55b:free`) · Vercel.
+**Stack:** SvelteKit · Bun · Zod · OpenRouter SDK (`nvidia/nemotron-3-ultra-550b-a55b:free`)
 
 ## Запуск
 
@@ -13,19 +13,6 @@ bun run dev
 ```
 
 Env-переменные: `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`.
-
-## Развёртывание (Vercel)
-
-Build & Install: `bun run build` / `bun install`. Node 22/24. Добавить те же env-переменные в **Environment Variables**.
-
-## Команды
-
-```sh
-bun run dev      # разработка
-bun run check    # svelte-check
-bun run lint     # prettier + eslint
-bun run build    # продакшен (adapter-vercel)
-```
 
 ## Структура
 
