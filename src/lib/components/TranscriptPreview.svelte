@@ -58,7 +58,7 @@
 		margin: 0;
 		white-space: pre-wrap;
 		overflow-y: auto;
-		color: #2c303a;
+		color: var(--text);
 		background: color-mix(in srgb, var(--bg) 50%, var(--surface));
 		border-top: 1px solid var(--border);
 	}

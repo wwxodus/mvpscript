@@ -204,7 +204,7 @@
 		border-radius: var(--radius);
 		border: none;
 		background: var(--accent);
-		color: #fff;
+		color: #10141c;
 		cursor: pointer;
 	}
 
@@ -236,8 +236,8 @@
 
 	.error {
 		margin-top: 1rem;
-		background: color-mix(in srgb, #fdecec 60%, var(--surface));
-		border: 1px solid #eab3b3;
+		background: rgba(224, 108, 117, 0.12);
+		border: 1px solid rgba(224, 108, 117, 0.35);
 		border-radius: var(--radius);
 		padding: 0.75rem 1rem;
 		color: var(--danger);
@@ -262,7 +262,7 @@
 		padding: 1rem 1.25rem;
 		max-height: 32rem;
 		overflow: auto;
-		color: #2c303a;
+		color: var(--text);
 	}
 
 	.empty {

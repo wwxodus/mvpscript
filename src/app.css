@@ -1,17 +1,17 @@
 :root {
-	--bg: #faf9f7;
-	--surface: #ffffff;
-	--border: #e5e2dc;
-	--text: #23272f;
-	--muted: #6e737d;
-	--accent: #4f46e5;
-	--accent-hover: #4338ca;
-	--accent-soft: #eef1ff;
-	--ok: #0f7d52;
-	--warn: #b45309;
-	--danger: #c62828;
+	--bg: #21252b;
+	--surface: #282c34;
+	--border: #3a4048;
+	--text: #abb2bf;
+	--muted: #7f848e;
+	--accent: #61afef;
+	--accent-hover: #6fb5f6;
+	--accent-soft: #2f3a4d;
+	--ok: #98c379;
+	--warn: #e5c07b;
+	--danger: #e06c75;
 	--radius: 12px;
-	--shadow: 0 1px 3px rgba(20, 24, 40, 0.08);
+	--shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 	--font: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 	--mono:
 		ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;

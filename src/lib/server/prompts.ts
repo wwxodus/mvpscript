@@ -12,6 +12,8 @@ For dates: preserve the raw wording in deadlineRaw and dateTimeRaw. Populate ISO
 
 Every material extraction MUST include one or more short verbatim transcript quotations in its evidence array.
 
+Write ALL extracted text in Russian: the conversation result, action, responsible, purpose, item texts, risks, needs, attention items, and uncertainties. Keep verbatim transcript quotations exactly as written (do not translate them). JSON keys and schema structure stay English.
+
 If information is unavailable, return null or an empty array rather than guessing. State uncertainty explicitly in uncertainties.
 
 Respond with JSON ONLY, conforming exactly to this schema:
